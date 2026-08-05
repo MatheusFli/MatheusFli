@@ -18,6 +18,8 @@
 
 <br/>
 
+
+
 <div align="center">
 
 **[Sobre mim](#sobre-mim)** ·
@@ -35,6 +37,9 @@
 </p>
 
 <a name="sobre-mim"></a>
+
+
+
 
 ## 🔮 Sobre mim
 
@@ -62,6 +67,11 @@
 </p>
 
 <a name="stack"></a>
+
+
+
+
+
 
 ## 🛠️ Tech Stack
 
@@ -100,6 +110,11 @@
 
 <a name="estatisticas"></a>
 
+
+
+
+
+
 ## 📊 Estatísticas
 
 <p align="center">
@@ -119,6 +134,9 @@
 
 <a name="atividade"></a>
 
+
+
+
 ## 🐍 Snake eating contributions
 
 <p align="center">
@@ -135,29 +153,7 @@
 
 
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,100:C77DFF&height=4" width="100%"/>
-</p>
 
-## 📈 Gráfico de Contribuições
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MatheusFli&color=c77dff&line=8a2be2&point=e0aaff&area=true&area_color=8a2be2&bg_color=00000000&hide_border=true" alt="Gráfico de atividade" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,100:C77DFF&height=4" width="100%"/>
-</p>
-
-
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Frase de programação aleatória"/>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,100:C77DFF&height=4" width="100%"/>
-</p>
 
 <a name="anime"></a>
 
