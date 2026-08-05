@@ -24,7 +24,6 @@
 **[Stack](#stack)** ·
 **[Estatísticas](#estatisticas)** ·
 **[Atividade](#atividade)** ·
-**[Troféus](#trofeus)** ·
 **[Anime corner](#anime)** ·
 **[Projetos](#projetos)** ·
 **[Contato](#contato)**
@@ -78,12 +77,12 @@
   <img src="https://img.shields.io/badge/HTML5-8A2BE2?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/><br/>
   <img src="https://img.shields.io/badge/CSS3-8A2BE2?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/><br/>
   <img src="https://img.shields.io/badge/JavaScript-8A2BE2?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/><br/>
-  
+
 </td>
 <td valign="top">
   <img src="https://img.shields.io/badge/Node.js-8A2BE2?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/><br/>
   <img src="https://img.shields.io/badge/Express-8A2BE2?style=for-the-badge&logo=express&logoColor=white" alt="Express"/><br/>
-
+ 
 </td>
 <td valign="top">
   <img src="https://img.shields.io/badge/MySQL-8A2BE2?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
@@ -104,8 +103,8 @@
 ## 📊 Estatísticas
 
 <p align="center">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=MatheusFli&show_icons=true&theme=radical&hide_border=true&bg_color=00000000&title_color=c77dff&icon_color=c77dff&text_color=e0aaff" alt="Estatísticas do GitHub" height="175"/>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatheusFli&layout=compact&theme=radical&hide_border=true&bg_color=00000000&title_color=c77dff&text_color=e0aaff" alt="Linguagens mais usadas" height="175"/>
+  <img align="center" src="https://github-stats-extended.vercel.app/api?username=MatheusFli&show_icons=true&theme=radical&hide_border=true&bg_color=00000000&title_color=c77dff&icon_color=c77dff&text_color=e0aaff" alt="Estatísticas do GitHub" height="175"/>
+  <img align="center" src="https://github-stats-extended.vercel.app/api/top-langs/?username=MatheusFli&layout=compact&theme=radical&hide_border=true&bg_color=00000000&title_color=c77dff&text_color=e0aaff" alt="Linguagens mais usadas" height="175"/>
 </p>
 
 <p align="center">
@@ -120,7 +119,7 @@
 
 <a name="atividade"></a>
 
-## 🐍 Atividade — Snake eating contributions
+## 🐍 Snake eating contributions
 
 <p align="center">
   <picture>
@@ -130,54 +129,11 @@
   </picture>
 </p>
 
-<details>
-<summary><strong>⚙️ Como ativar essa animação (leva ~3 minutos)</strong></summary>
+
 
 <br/>
 
-A cobrinha é gerada automaticamente pelo GitHub Actions a partir do seu gráfico de contribuições — não é uma imagem estática.
 
-1. Neste mesmo repositório, crie o arquivo `.github/workflows/snake.yml` com o conteúdo abaixo.
-2. Faça commit e aguarde a Action rodar uma vez (ou dispare manualmente em **Actions → generate snake animation → Run workflow**).
-3. Isso vai criar automaticamente um branch chamado `output` com os arquivos SVG — é exatamente para esse branch que a imagem acima aponta.
-
-```yaml
-name: generate snake animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"   # atualiza todo dia à meia-noite (UTC)
-  workflow_dispatch:        # permite rodar manualmente
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - name: Gerar o SVG da cobrinha
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Publicar o resultado no branch "output"
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Projeto original: [`Platane/snk`](https://github.com/Platane/snk).
-
-</details>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,100:C77DFF&height=4" width="100%"/>
@@ -193,13 +149,7 @@ Projeto original: [`Platane/snk`](https://github.com/Platane/snk).
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4B0082,100:C77DFF&height=4" width="100%"/>
 </p>
 
-<a name="trofeus"></a>
 
-## 🏆 Troféus
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MatheusFli&theme=radical&no-frame=true&margin-w=15&column=-1" alt="Troféus do GitHub"/>
-</p>
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Frase de programação aleatória"/>
@@ -238,26 +188,32 @@ Toda madrugada de código merece uma trilha sonora certa e uma boa dose de inspi
 
 <p align="center">
   <a href="https://github.com/MatheusFli/tcc-loja-node">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=MatheusFli&repo=tcc-loja-node&theme=radical&hide_border=true&bg_color=00000000&title_color=c77dff&text_color=e0aaff&icon_color=c77dff" alt="Repositório: Amor Doce"/>
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=MatheusFli&repo=tcc-loja-node&theme=radical&hide_border=true&bg_color=00000000&title_color=c77dff&text_color=e0aaff&icon_color=c77dff" alt="Repositório: TCC Loja Node"/>
   </a>
-  
+  <a href="https://github.com/MatheusFli/Portifolio">
+    <img src="https://github-stats-extended.vercel.app/api/pin/?username=MatheusFli&repo=Portifolio&theme=radical&hide_border=true&bg_color=00000000&title_color=c77dff&text_color=e0aaff&icon_color=c77dff" alt="Repositório: Portifólio"/>
+  </a>
 </p>
 
 <div align="center">
 
 | Projeto | Status | Stack |
 |:--|:--:|:--|
-| 🛒 **E-commerce** | em desenvolvimento | HTML · CSS · JS · Node.js · MySql |
-| ✨ **Portifolio** | em desenvolvimento | HTML · CSS |
+| 🛒 **TCC — Loja Virtual** | em desenvolvimento | HTML · CSS · JS · Node.js |
+| 🌐 **Portifólio** | em desenvolvimento | HTML · CSS · JS |
+| ✨ **Lista de tarefas** | planejamento | — |
 
 </div>
 
 <!--
-  Os cartões acima ("Repo Card") só aparecem corretamente depois que você:
-  1. Trocar MatheusFli pelo seu usuário real;
-  2. Trocar tcc-loja-node / sistema-financeiro pelos nomes reais dos
-     repositórios (eles precisam ser públicos);
-  3. Fixar esses mesmos repositórios no seu perfil em
+  IMPORTANTE — os cartões acima ("Repo Card") só carregam se:
+  1. MatheusFli foi trocado pelo seu usuário real (já feito);
+  2. tcc-loja-node / Portifolio forem nomes de repositórios que
+     JÁ EXISTEM e são PÚBLICOS na sua conta (o card busca dados reais
+     via API — se o repo não existir ou estiver privado, a imagem
+     vem quebrada). Se o nome exato do repositório for diferente
+     (maiúsculas/minúsculas importam!), corrija o parâmetro repo=.
+  3. Depois, fixe esses mesmos repositórios no seu perfil em
      github.com/MatheusFli → "Customize your pins".
 -->
 
@@ -273,13 +229,13 @@ Toda madrugada de código merece uma trilha sonora certa e uma boa dose de inspi
   <a href="https://linkedin.com/in/Matheus Ferraioli Lopes de Oliveira" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-8A2BE2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:ferraiolimatheus@gmail.com">
+  <a href="mailto:seuemail@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-8A2BE2?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"/>
   </a>
   <a href="https://instagram.com/ferraioli_ms" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-8A2BE2?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
-  <a href="https://https://github.com/MatheusFli/Portifolio" target="_blank">
+  <a href="https://github.com/MatheusFli/Portifolio" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Portf%C3%B3lio-8A2BE2?style=for-the-badge" alt="Portfólio"/>
   </a>
 </p>
