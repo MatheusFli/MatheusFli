@@ -1,0 +1,83 @@
+<svg viewBox="0 0 900 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de um desenvolvedor codando à noite, estilo minimalista">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0533"/>
+      <stop offset="55%" stop-color="#3b0f70"/>
+      <stop offset="100%" stop-color="#6a1fb8"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e6ccff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#e6ccff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="screenGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c77dff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#c77dff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hillGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a0a4f"/>
+      <stop offset="100%" stop-color="#12021f"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="340" rx="18" fill="url(#bgGrad)"/>
+
+  <circle cx="740" cy="80" r="90" fill="url(#moonGlow)"/>
+  <circle cx="740" cy="80" r="34" fill="#f3e6ff"/>
+  <circle cx="756" cy="70" r="30" fill="#3b0f70"/>
+
+  <g fill="#f3e6ff">
+    <circle cx="90" cy="55" r="2"/>
+    <circle cx="150" cy="95" r="1.6"/>
+    <circle cx="230" cy="40" r="2.2"/>
+    <circle cx="320" cy="75" r="1.4"/>
+    <circle cx="420" cy="35" r="1.8"/>
+    <circle cx="520" cy="60" r="1.4"/>
+    <circle cx="600" cy="30" r="2"/>
+    <circle cx="60" cy="130" r="1.6"/>
+    <circle cx="270" cy="120" r="1.2"/>
+    <circle cx="470" cy="100" r="1.6"/>
+  </g>
+
+  <g fill="#e0aaff" opacity="0.9">
+    <path d="M150 150 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z"/>
+    <path d="M610 140 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z"/>
+    <path d="M110 200 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 z"/>
+  </g>
+
+  <g fill="#c19bff" opacity="0.55" font-family="Consolas, Menlo, monospace" font-size="20">
+    <text x="55" y="230">&lt;/&gt;</text>
+    <text x="700" y="215">{ }</text>
+    <text x="640" y="290">01</text>
+  </g>
+
+  <path d="M0 300 C 150 260, 300 320, 450 290 C 600 262, 750 310, 900 280 L 900 340 L 0 340 Z" fill="url(#hillGrad)"/>
+
+  <!-- Silhueta minimalista: pessoa sentada com notebook -->
+  <g transform="translate(340,150)">
+    <ellipse cx="120" cy="168" rx="150" ry="14" fill="#0d0116" opacity="0.4"/>
+    <!-- corpo / capuz -->
+    <path d="M60 170
+             C 55 110, 85 70, 130 70
+             C 178 70, 205 112, 200 170
+             C 200 178, 190 182, 178 182
+             L 84 182
+             C 70 182, 60 178, 60 170 Z"
+          fill="#1c0630" stroke="#e0aaff" stroke-width="1.5" stroke-opacity="0.6"/>
+    <!-- capuz detalhe -->
+    <path d="M92 78 C 100 60, 160 60, 168 78" fill="none" stroke="#e0aaff" stroke-width="1.5" stroke-opacity="0.5"/>
+    <!-- pernas cruzadas -->
+    <path d="M62 172 C 90 200, 170 200, 198 172 L 198 184 C 170 210, 90 210, 62 184 Z" fill="#1c0630" stroke="#e0aaff" stroke-width="1.5" stroke-opacity="0.6"/>
+    <!-- notebook -->
+    <g transform="translate(96,148)">
+      <path d="M0 22 L68 22 L60 34 L8 34 Z" fill="#150422" stroke="#e0aaff" stroke-width="1.2" stroke-opacity="0.6"/>
+      <rect x="6" y="-10" width="56" height="34" rx="2" fill="#150422" stroke="#e0aaff" stroke-width="1.2" stroke-opacity="0.6"/>
+      <rect x="10" y="-6" width="48" height="26" fill="url(#screenGlow)"/>
+    </g>
+    <!-- brilho de tela no rosto -->
+    <ellipse cx="130" cy="120" rx="26" ry="20" fill="url(#screenGlow)" opacity="0.5"/>
+  </g>
+
+  <text x="450" y="325" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#d9b8ff" opacity="0.75">
+    // ilustração original — sem uso de personagens de terceiros
+  </text>
+</svg>
